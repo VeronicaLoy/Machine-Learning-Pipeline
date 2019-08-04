@@ -54,10 +54,9 @@ The number of **cross-validation** folds can be specified under "cv", e.g. "cv":
 
 ## Deployment
 
-In the terminal window, navigate to the folder named "veronica_loy" and run script **run.sh**. This will run the code **ML.py**, which will output the selected features, model, parameters and number of cross-validation folds that the user has selected in the **config.json** file. It will also output the best parameters and best test score.
+In the terminal window, run script **run.sh**. This will run the code **ML.py**, which will output the selected features, model, parameters and number of cross-validation folds that the user has selected in the **config.json** file. It will also output the best parameters and best test score.
 
 ```
-$ cd ../veronica_loy
 $ sh run.sh
 ```
 
