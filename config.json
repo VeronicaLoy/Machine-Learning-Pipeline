@@ -1,0 +1,46 @@
+{
+"URL": "https://aisgaiap.blob.core.windows.net/aiap4-assessment/real_estate.csv"
+
+,"Features": {
+
+    "X1 transaction date": 0.1
+
+    ,"X2 house age": 0.2
+
+    ,"X3 distance to the nearest MRT station": 2
+
+    ,"X4 number of convenience stores": 1
+
+    ,"X5 latitude": 0.3
+
+    ,"X6 longitude": 0
+    
+    }
+
+,"Model": {
+    
+    "KNeighborsRegressor": {"Select?": "Yes"
+                            ,"parameters": "{'n_neighbors':[2,10]}"
+                        }
+
+    ,"SVR": {"Select?":"No"
+            ,"parameters": "{'C':[1,10]}"
+                        }
+            
+    ,"LinearRegression": { "Select?": "No"
+            ,"parameters": "{'normalize':[True,False]}"
+                        }
+    
+    ,"DecisionTreeRegressor": {"Select?": "No"
+            ,"parameters": "{'min_samples_split':[2,10]}" 
+                        }
+    
+    ,"RandomForestRegressor": {"Select?": "No"
+
+            ,"parameters": "{'n_estimators':[50,100]}"
+                        }
+        }
+
+
+
+,"cv": 5}
