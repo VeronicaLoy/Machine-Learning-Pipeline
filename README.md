@@ -23,7 +23,7 @@ pip install --user --requirement requirements.txt
 "X1 transaction date": 0.1
 ...
 }
-
+```
 ### Selecting the Model
 
 **config.json** contains a list of **regression models** which users can select from. To select the model, specify **"Yes"** next to the desired model, e.g KNeighboursRegressor in the example below.
