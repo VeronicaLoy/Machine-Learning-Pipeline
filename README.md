@@ -16,24 +16,13 @@ pip install --user --requirement requirements.txt
 
 ### Processing the data
 
-**config.json** contains a list of column names (features) from the dataset. The weight of each feature can be specified by changing value that corresponds to each feature, e.g. "X1 transaction date": **0.1**
+**config.json** contains a list of column names (features) from the dataset. The weight of each feature can be specified by changing value that corresponds to each feature, e.g. set weight of 0.1 to feature "X1 transaction date" in the example below
 ```
 ,"Features": {
 
 "X1 transaction date": 0.1
-
-,"X2 house age": 0.2
-
-,"X3 distance to the nearest MRT station": 2
-
-,"X4 number of convenience stores": 1
-
-,"X5 latitude": 0.3
-
-,"X6 longitude": 0
-
+...
 }
-```
 
 ### Selecting the Model
 
