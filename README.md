@@ -1,6 +1,6 @@
 # Machine Learning Pipeline
 
-This machine learning pieline processes the market historical data set of real estate valuation from Sindian Dist,. New Taipei Cit, Taiwan ("https://aisgaiap.blob.core.windows.net/aiap4-assessment/real_estate.csv")  and feeds it into user-selected machine learning algorithm. Themachine learning pieline is configured to enable different ways of processing the data, and allow easy experimentation of different algorithms and their parameters.
+This machine learning pieline processes the market historical data set of real estate valuation from Sindian Dist,. New Taipei Cit, Taiwan ("https://aisgaiap.blob.core.windows.net/aiap4-assessment/real_estate.csv")  and feeds it into user-selected machine learning algorithm. The machine learning pieline is configured to enable different ways of processing the data, and allow easy experimentation of different algorithms and their parameters.
 
 ## Getting Started
 
